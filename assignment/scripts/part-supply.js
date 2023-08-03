@@ -54,10 +54,13 @@ console.log('7. Showing supplyChanges with "for of" loop');
 for (number of supplyChanges){
     console.log(number);
     if (number > 0){
-        console.log('Added ' + number + ' parts');
+        console.log('Added ' + number + ' parts.');
     }
     if(number<0){
-        console.log('Removed ' + number + ' parts');
+        console.log('Removed ' + number + ' parts.');
+    }
+    if(number === 0){
+        console.log('No change.');
     }
 }
 
