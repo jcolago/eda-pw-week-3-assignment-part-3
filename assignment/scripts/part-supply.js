@@ -39,6 +39,9 @@ console.log(supplyChanges[i]);
     if (supplyChanges[i]>=1){
         console.log('Added ' + supplyChanges[i] + ' parts.')
     }
+    if (supplyChanges[i]<0){
+        console.log('Removed ' + supplyChanges[i] + ' parts.')
+    }
 }
 
 
